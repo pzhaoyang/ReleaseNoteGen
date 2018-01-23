@@ -33,7 +33,7 @@ wb = xlwt.Workbook()
 wsi = wb.add_sheet('Internal')
 
 styleStaticName = xlwt.easyxf('font: name Times New Roman, height 240, color-index black, bold off; \
-                               align: vert centre, horiz center')
+                               align: vert centre, horiz left')
 # static write
 wsi.write(0, 0, A1Name,styleStaticName)
 wsi.write(1, 0, A2Name,styleStaticName)
